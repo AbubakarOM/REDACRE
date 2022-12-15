@@ -1,0 +1,24 @@
+{
+  "name": "redacre_coding_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "add": "git add .",
+    "reset": "git reset",
+    "cy:open": "npx cypress open",
+    "pushToMaster": "git push origin master",
+    "pushToStaging": "git push origin staging",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "abubakar omolaja muhammed <abubakar_muhammed19@yahoo.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
